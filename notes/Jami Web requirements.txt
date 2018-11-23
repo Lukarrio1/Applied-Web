@@ -1,0 +1,12 @@
+    Jami Car web site 
+    1: photo upload 
+    2: admin panel (auth)
+    3: ajax request(delete create and edit)
+    4: UI bootstrap
+    5: featured cars 
+    6: user panel
+ 
+   
+   
+   Admin Username :admin
+   Admin Password :admin12
