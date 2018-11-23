@@ -1,5 +1,5 @@
 <?php 
 $connect = mysqli_connect('localhost','root','','car_jamaica');
-if($connect != true){
- header('location:index?database');
+if($connect == false){
+ header('location:index.php?database');
 }

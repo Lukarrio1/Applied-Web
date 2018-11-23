@@ -14,7 +14,7 @@ $pwconfirm = sanitize(trim($_POST['password-confirm']));
 <div class="card rounded shadow">
 <div class="card-header bg-white h3 text-capitalize text-dark">Sign - Up
 </div>
-<form action="register.php" method="POST">
+<form action="register.php" method="POST" >
 <div class="form-group row pt-2">
 <div class="col-sm-6 offset-sm-3">
 <input type="text" class="form-control form-control-lg" id="User" placeholder="User Name" name="User" required autocomplele="off">

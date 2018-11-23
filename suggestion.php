@@ -13,7 +13,7 @@ if(filter_var($email,FILTER_VALIDATE_EMAIL)){
 if(strlen($brand)>2){
 if(strlen($about)>10){
 if(strlen($name)>2){
-if(mail('tomennis1997@gmail.com','Cars-Jamaica Car',
+if(mail('Your email goes here','Cars-Jamaica Car',
 "\r\n brand:".$brand.
 "\r\n Car Name:".$name.
 "\r\n About Car:".$about

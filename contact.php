@@ -11,7 +11,7 @@ $body = sanitize($_POST['body']);
 if(filter_var($email,FILTER_VALIDATE_EMAIL)){
 if(strlen($subject)>3){
 if(strlen($body)>10){
-if(mail('tomennis1997@gmail.com','Cars-Jamaica',$body,'From:'.$email)==true){;
+if(mail('your email goes here','Cars-Jamaica',$body,'From:'.$email)==true){;
 echo "<span class='text-success'>Message sent</span>";
 }else{
  echo "<span class='text-danger'>Error failed to send</span>";

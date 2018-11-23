@@ -1,12 +1,10 @@
-    Jami Car web site 
-    1: photo upload 
-    2: admin panel (auth)
-    3: ajax request(delete create and edit)
-    4: UI bootstrap
-    5: featured cars 
-    6: user panel
- 
-   
-   
+    Add your email address in the files listed below in the mail function
+    1:Contact.php- its on line 14.
+    2:suggestion.php- its on line 16
+
+        ADMIN PASSWORD 
    Admin Username :admin
    Admin Password :admin12
+   To access this part of the web site browse  /login.php
+    
+   After reading and following the direction delete this file ..

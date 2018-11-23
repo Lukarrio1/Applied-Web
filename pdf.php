@@ -13,6 +13,7 @@ if(isset($_SESSION['admin'])){
     $pdf->Cell(0,20,'All Users',10,1,'C');
     foreach($id as $user):
     $pdf->Cell(0,10,'',10,1,'C');
+    $pdf->Cell(0,10,"User ID: ".$user['id'],10,1,'C');
     $pdf->Cell(0,10,"User Name: ".$user['Name'],10,1,'C');
     $pdf->Cell(0,10,"User Email: ".$user['Email'],10,1,'C');
     $pdf->Cell(0,10,"Joined At: ".date('M j, Y h:ia', strtotime($user['Created_at'] )),10,1,'C');
